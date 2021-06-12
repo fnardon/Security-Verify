@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Security Verify - Consents</title>
+</head>
+
+<body>
+
+    <h1>Consent Id</h1>
+
+    <ul>
+            <li>
+                <%= id %>
+            </li>
+            <li>
+                <%= token %> (Token)
+            </li>
+    </ul>
+            
+
+            <form action="/verify/token" method="GET">
+
+                <input type='submit' value='Obter' />
+
+            </form>
+</body>
+
+</html>
